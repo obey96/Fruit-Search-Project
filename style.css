@@ -1,0 +1,109 @@
+* {
+  box-sizing: content-box;
+}
+
+:focus {
+ /* TODO */
+}
+
+/* background color and size */
+
+body {
+    height: 100vh;  
+    background: linear-gradient(to right, #f8d222,#e65f00);
+    margin: 0;
+    height: 50vh; 
+}
+
+input {
+ /* TODO */
+ background-color:#eea53f ;
+ border-color: #eea53f;
+}
+
+/* search input location */
+
+.search-container {
+ margin: 200px auto;
+  width: 100%;
+  max-width: 200px;
+  height: 40px; 
+  text-align: center; 
+ 
+
+}
+.search-container input,
+.search-container .suggestions {
+  /* box-sizing:border-box; */ 
+  /* do not know what to do witht this */
+}
+
+/* search bar lenght */
+
+.search-container input {
+ /* TODO */width: 100%;
+    background: #eea93f ;
+    
+}
+
+/* search suggestions size and color */
+
+.search-container .suggestions {
+   /* TODO */ background: #eea53f;
+
+   /* it looks ugly */
+  /* border: 1px solid red; */
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 5, 0.1);
+  max-height: 200px; /* Adds a max height for scrollability */
+  
+  /* ask about this and how it could be better */
+
+  overflow-y:hidden; /* Enables vertical scrolling */
+
+
+  /* trying padding, it fix the issue of list showing before search */
+  
+  /* padding: 1px 12px; */
+  cursor: pointer;
+
+}
+
+.search-container .suggestions li:hover {
+  background-color: #e05400; /* Highlight on hover */
+  
+}
+
+.item-list{
+
+/* display shows none so it does not show block */
+
+display: none; 
+
+/* list-style none makes the list dots away */
+
+list-style: none;
+
+
+/* padding 0 makes the suggestions center */
+padding: 0 ;
+  
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+}
+ul li:hover {
+  /* TODO */
+}
+
+input {
+   /* TODO */
+} 
